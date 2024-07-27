@@ -1,0 +1,119 @@
+<!DOCTYPE html><html><head><meta charset='UTF-8'><script type='text/javascript'></script><style>body{
+font-family: Arial, sana-serif;
+background-color: white;
+margin: 0;
+padding: 0;
+}
+.container {
+width: 100%;
+max-width: 650px  ;
+margin: 70px auto;
+background-color: black;
+padding: 25px;
+border-radius: 10px;
+height: 730px;
+box-shadow: 50px rgba(0, 0, 0, 0.1);
+}
+h1 {
+text-align: center;
+font-size: 60px;
+color: #0096ff;
+}
+h2{
+text-align: center;
+color: white;
+font-size: 70px;
+}
+form {
+display: grid;
+font-size: 30px;
+gap: 10px;
+}
+label{
+color: #99cfe0;
+font-size: 20px;
+padding: 1px;
+margin: 1px;
+margin-top: 23px
+}
+input, textarea {
+width: 94%;
+height: 40px;
+padding: 9px;
+border:0px solid #ddd;
+border-radius: 30px;
+margin-bottom: 15px;
+}
+input textarea:hover{
+border: 25px;
+background-color: blue;
+}
+button {
+background-color: white;
+color: black;
+border: none;
+width: 180px;
+height: 50px;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+border-radius: 100px;
+cursor: pointer;
+margin-top: 20px;
+margin: 20px;
+}
+button:hover{
+background-color: #202020;
+color: white;
+}
+.done{
+font-size: 27px;
+color: white;
+}
+.done:hover{
+color: #99cfe0;
+}
+.like button{
+width: 35px;
+height: 30px;
+border-radius: 440px;
+background-color: #99cfe0;
+color: black;
+padding: 10px;
+margin-top: -44px;
+}
+.like button:hover{
+background-color: white;
+}
+.like button:click{
+color: #202020;
+}</style></head><body><!DOCTYPE html>
+<html lang="en">
+<head>  
+   <meta charset="UTF-8">
+   <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>TimeLook feedback</title>
+</head>
+<body>
+    <header>
+    <h1></h1>
+    <div class="container">
+        <h1>timelook</h1>
+        <h2>Feedback</h2>
+        <form id="contact-form" method="POST" action="send_email.php">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+            
+            
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="Message" rows="4" required></textarea>
+            
+            <button type="suubmit">Send</button>
+            <ual>
+            <a href="index.html" class="done">&#8592; Done</a>
+        </form>
+    </div>
+    <scipt src="script.js"></scipt>
+    </body></html>

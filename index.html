@@ -1,0 +1,426 @@
+<!DOCTYPE html><html><head><meta charset='UTF-8'><script type='text/javascript'></script><style>* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+height: -webkit-fill-available;
+}
+body{
+display: flex;
+background-color: #202020;
+flex-direction: column;
+max-width: 1449px;
+margin: 0 auto;
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 16px;
+}
+header {
+background-color: #202020;
+color: #99cfe0;
+height: 0px;
+width: 0%;
+position: fixed;
+font-size: 53px;
+margin-top: 1px;
+}
+main {
+padding: 0px;
+margin-top: 550px;
+margin: 0px;
+}
+img{
+width: 90%;
+max-width: 630px;
+height: auto;
+margin: 20px;
+border: 1px solid gray;
+margin-top: 100px;
+text-align: center;
+border-radius: 6px;
+}
+video{
+width: 100%;
+max-width: 830px ;
+margin-right: 1px;
+margin-left: 0px;
+height: auto;
+border-radius: 20px;
+margin-top: 100px;
+background-color: #202020;
+}
+button{
+color: #99cfe0;
+width: 90px;
+height: 50px;
+font-size: 18px;
+background-color: #202020;
+border: .1px solid gray;
+border-radius: 15px;
+text-align: center;
+margin: 2px;
+margin-top: 6px;
+transition: background-color 0.3s ease;
+}
+button:hover{
+border: none;
+height: 60px;
+background-color: #444;
+}
+button:active {
+border: .2px solid white;
+background-color: #404040;
+}
+.sign button{
+color: black;
+background-color: white;
+border-radius: 250px;
+border: none;
+font-size: 20px;
+width: 85px;
+margin-top: 10px;
+margin-left: 70%;
+}
+.sign button:active{
+background-color: black;
+}
+.sign button:hover {
+background-color: #99cfe0;
+font-size: 22px;
+border: none;
+margin-top: 10px;
+width: 85px;
+}
+.sign2 button{
+font-size: 15px;
+width: 60px;
+color: white;
+border: none;
+margin: 25px;
+margin-top: 1px;
+text-decoration: none;
+border-radius: 90px;
+}
+text{
+color: white;
+font-size: 40px;
+margin: 5px;
+}
+.sign2:hover{
+font-size: 30px;
+width: 45px;
+border: none;
+}
+.more button{
+color: black;
+background-color: white;
+text-decoration: none;
+font-size: 35px;
+}
+.more:hover{
+color: #66ff00;
+}
+a {
+color: white;
+font-size: 30px;
+text-decoration: none;
+margin: 10px;
+}
+a:hover{
+color: #99cfe0;
+}
+.more button{
+background-color: white;
+color: black;
+height: 65px;
+border-radius: 106px;
+text-align: center;
+border: none;
+width: 80px;
+font-size: 20px;
+}
+.more button:hover{
+background-color: #5b5b5b;
+color: #99cfe0;
+border-radius: 100px;
+border: none;
+height: 60px;
+width: 85px;
+}
+.image-3{
+color: white;
+font-size: 45px;
+margin-top: 40px;
+}
+text{
+color: white;
+}
+a {
+margin-right: 20px;
+margin-top: 5px;
+}
+.mobile-menu{
+display: none;
+}
+.menu-toggle{
+background: none;
+border: none;
+color: #fff;
+font-size: 2rem;
+cursor: pointer;
+padding: 20px;
+display: block;
+}
+.loadm button{
+font-size: 52px;
+color: #202020;
+border: none;
+background-color: white;
+margin-left: 30%;
+height: 70px;
+border-radius: 100px;
+width: 70px;
+text-align: center;
+margin-top: 50px;
+}
+.loadm button:hover{
+border: none;
+}
+.breaking button{
+color: #51e2f5;
+font-size: 20px;
+width: 40px;
+height: 40px;
+border-radius: 1030px;
+}
+.breaking button:hover{
+height: 40px;
+}
+.feed button {
+margin-top: 20px;
+font-size: 25px;
+width: 280px;
+color: white;
+background-color: #404040;
+height: 60px;
+border: none;
+margin: 10px;
+}
+.feed button:hover{
+background-color: black;
+}
+h1{
+color: #99cfe0;
+font-size: 2.8em;
+margin-right: 0%;
+border: none;
+margin-top: -20px;
+}
+footer{
+font-size: 20px;
+color: white;
+background-color: black;
+width: 100%;
+margin-top: 1px;
+}
+.slide{
+display: none;
+}
+.text{
+color: #fff;
+font-size: 20px;
+position: absolute;
+margin-bottom: 100px;
+left: 10px;
+}
+.next{
+right: 0;
+border-radius: 3px;
+}
+.section1{
+color: blue;
+margin-top: 30px;
+}
+.download button{
+color: black;
+background: white;
+border: none;
+height: 3pc;
+width: 112px;
+border-radius: 5px;
+margin-left: 70%;
+}
+.download button:hover{
+color: #99cfe0;
+background-color: #404040;
+border-radius: 5px;
+}
+.hed {
+color: #99cfe0;
+font-size: 40px;
+}
+.moremn button{
+background-color: #202020;
+color: white;
+width: 80px;
+height: 80px;
+border-radius: 50px;
+font-size: 55px;
+margin-right: 90%;
+margin-top: 0px;
+border: none;
+}
+.moremn button:hover{
+background-color: #404040;
+color: #99cfe0;
+}
+.section2 img{
+width: 200px;
+height: 200px;
+margin: 0px;
+border-radius: 300px;
+margin-top: 14px;
+overflow: hidden;
+}
+.section2 img:hover{
+width: 190px;
+height: 190px;
+border: 1px solid #99cfe0;
+}
+.setting button{
+border: none;
+color: white;
+font-size: 45px;
+width: 65px;
+border-radius: 50px;
+height: 65px;
+margin-bottom: 60px;
+}
+text9{
+color: white;
+font-size: 27px;
+margin-left: 50px;
+margin-right: 50px;
+}
+p{
+color: white;
+font-size: 40px;
+margin-right: 60px;
+margin-left: 60px;
+margin-top: 80px;
+word-break: break-all;
+}
+p3{
+color: white;
+font-size: 45px;
+margin: 100px;
+}
+.text10{
+color: white;
+}
+.daily button{
+border: none;
+width: 130px;
+height: 30px;
+background-color: #404040;
+}
+.loadm button:hover{
+color: white;
+background-color: black;
+width: 80px;
+}</style></head><body><!DOCTYPE html>
+<html lang="en">
+<head>  
+   <meta charset="UTF-8">
+   <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+   <title>timelook</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+   
+                     <a href="menu.html" class="moremn"><button>≡</button></a>
+
+         </div>
+        </header>
+      
+        <div class="mobile-menu"></div>
+        <a href="123456789 not a 56789 robot.html" class="sign"><button>Sign Up</button></a>
+        <a href="index.html" class="h1"><h1>timelook</h1></a>
+        <text>All for you.</text>
+        
+          
+          
+
+
+ 
+    </nav>
+    
+    <main>
+        <section>
+         <div class="slideshow-container">
+             <div class="slide">
+                
+                 <div class="text"></div>
+             </div>
+             
+             <div class="slide">
+
+                 <div class="text"></div>
+             </div>
+            
+         </div>
+         <div class="container-for-buttons">
+        <a href="sport.html">Sports</a>
+        <a href="videos.html">Videos</a>
+        <a href="movies.html">Movies</a>
+        <a href="games.html">Games</a>
+<a href="more options.html" class="more"><button>More &#10095;</button></a>
+        </div>
+            <video="autoplay">
+         <A HREF="for videos to be edit.html"><video src=blob:D04F7805-9065-490F-99A2-1A466E5560A2 controls ></video></a>
+          <p>h huhh hhu hhuhuhuh huhuh huh </p>
+           <video src=blob:17479979-F39C-4EA5-A5F8-C8BA12BC371E controls ></video>
+           <p>hjuu hjuyhj huhjn uhjhjn  uhbjhjh jbjbjhj hjhjh jbjbjb jhj</p>
+           <video src=blob:D48B6967-2C6E-4218-8E71-19A8A2112CAB controls ></video>
+           <p>hbhjbjb jnnmnmnm jkjbjkbjb jbnb n jnjjknk jnkn m  mnm,nm mm  </p>
+           <img src=blob:96D56936-B4A1-479A-8582-EDB6ADA0826F />
+           <p>ghfyfh gfhjfhf jhvhjhghg vghj hjbhjvhb hvhvgh ghvhvj hvhj jhvhj bhgvj, jhf </p>
+           <p>hvhkfgkvcgf g hvcb g g vhj hvhjg hh vb vjhvhgkuj hvhjk kjhjhj yb  uyu cv hgcgh </p>
+           <img src=blob:90682787-03BD-44F1-BEB5-2B3E7FA69A84 />
+           <text></text>
+        <section1>
+        <div class="section2">
+        <p3>People</p3>
+        <div>
+        <a href="trending 1 page.html"></a>
+
+        <a href="trending 2 page.html">
+            
+        </a>
+        <a href="trending 3 page.html"><img src=blob:78AA1C5E-B6C6-4C3B-84BB-3F3B6CA10CD1 /></a>
+        <text></text>
+        <a href="trending 4 page.html"><img src=blob:F26BAC0A-AD3A-4AE9-BF80-9293EB8115AC /></a>
+        <text></text>
+        </div>
+        </section1>
+        <div>
+        <a href="more.html" class="more"><button>More</button></a>
+        <a href="index.html" class="loadm"><button>&#9650;</button></a>
+        </div>
+        <a href="feedback.html" class="feed"><button>Send Feedback</button></a>
+        <a href="download.html" class="download"><button>Download</button></a>
+        <a href="settings.html" class="setting"><button>⋯</button></a>
+    </main>
+    
+    
+    <footer>
+    <div class="links"></div>
+        <text10> LLC Timelook 2025.</text10>
+    </footer>
+  
+    </div>
+    
+</body></html>
